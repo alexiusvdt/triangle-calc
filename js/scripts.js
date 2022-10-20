@@ -49,7 +49,7 @@ window.addEventListener("load", function() {
     }
   }; 
 
-  // runs our typeTest functions and evaluates a decision tree  
+  // runs our typeTest functions and evaluates a deision tree  
   function triangleTester() {;
     const a = parseInt(document.querySelector("input#a").value);
     const b = parseInt(document.querySelector("input#b").value);
