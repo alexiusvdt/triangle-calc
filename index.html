@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Triangle Calculator</title>
+  </head>
+  <body>
+    <div>
+      <h1>Is that a triangle?</h1>
+
+      <p>Many people spend hours each day agonizing whether or not three given lengths make up a triangle, and what type of triangle it is.</p>
+      <p><strong>WELL SUFFER NO LONGER</strong>!</p>
+      <p>Enter three values for your triangle and let's see what happens</p>
+
+      <form id="triangle?">
+        <p id="error-message" class="hidden">Numbers only, please! We can't parse text.</p>
+        <label for="a">Side A</label>
+        <input id="a" type="text">
+        <label for="b">Side B</label>
+        <input id="b" type="text">
+        <label for="c">Side C</label>
+        <input id="c" type="text">
+        <button type="submit">Show me the triangle!</button>
+      </form>
+
+      <div id="equilateral" class="hidden">
+        <h1>You got yourself an Equilateral triangle!</h1>
+      </div>
+      <div id="isosceles" class="hidden">
+        <h1>You got yourself an Isosceles triangle!</h1>
+      </div>
+      <div id="scalene" class="hidden">
+        <h1>You got yourself a Scalene triangle!</h1>
+      </div>
+      <div id="invalid" class="hidden">
+        <h1>That's not a viable triangle, sorry!</h1>
+        <p>Try again with different values</p> 
+      </div>
+    </div>
+  </body>
+</html>
